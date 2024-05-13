@@ -18,13 +18,14 @@ h1{
 }
 .topnav{
     background-color: whitesmoke;
-    display: block;
+    display: inline-block;
     text-align: left;
 }
 .topnav a{
+
     color: #2b2b2bd0;
     text-decoration: none;
-    display: block;
+    display:inline-block;
     padding: 14px 16px;
     text-align: left;
 }
