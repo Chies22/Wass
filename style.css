@@ -43,3 +43,8 @@ h1{
 .topnav-right{
     float: right;
 }
+.footer{
+background-color: black;
+font-style: italic;
+font-size: small;
+}
