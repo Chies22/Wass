@@ -79,5 +79,20 @@ $user_details = [
        $items= ["book","pen",456,35.5,"Files54"];
         ?>
         <pre>
-        
+        <?php var_dump($items); ?>
         </pre>
+    <?php
+    //fnames
+    $age = [45,42,23];
+
+        $user_age = array_combine($fnames,$age);
+
+        $user_data = array_merge($fnames,$age);
+    ?>
+    <pre>
+        <?php 
+        print_r($user_data);//uses the index of the final array begining from zero and linearly arranges the elements in the two arrays
+
+        print_r($user_age);//uses the elements of the first array as indexes i percieve
+        ?>
+    </pre>
